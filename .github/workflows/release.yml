@@ -102,4 +102,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ needs.create_release.outputs.release_id }}
-          draft: false
